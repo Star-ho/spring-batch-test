@@ -1,6 +1,6 @@
-package com.batch.product
+package com.sungho.product
 
-import com.batch.product.request.CreateProductDto
+import com.sungho.product.request.CreateProductDto
 import org.springframework.stereotype.Component
 
 @Component

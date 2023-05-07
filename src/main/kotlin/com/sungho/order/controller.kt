@@ -1,7 +1,7 @@
-package com.batch.member
+package com.sungho.member
 
-import com.batch.member.dto.RegisterOrderRequest
-import com.batch.order.Order
+import com.sungho.member.dto.RegisterOrderRequest
+import com.sungho.order.Order
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 

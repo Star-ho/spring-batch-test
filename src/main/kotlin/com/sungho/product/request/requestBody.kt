@@ -1,4 +1,4 @@
-package com.batch.product.request
+package com.sungho.product.request
 
 class CreateProductDto(
     val label: String,

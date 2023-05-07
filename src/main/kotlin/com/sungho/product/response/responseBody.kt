@@ -1,6 +1,6 @@
-package com.batch.product.response
+package com.sungho.product.response
 
-import com.batch.product.Product
+import com.sungho.product.Product
 
 class ProductResponse(product: Product) {
     val id = product.id

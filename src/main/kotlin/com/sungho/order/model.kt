@@ -1,7 +1,7 @@
-package com.batch.order
+package com.sungho.order
 
-import com.batch.member.Member
-import com.batch.product.Product
+import com.sungho.member.Member
+import com.sungho.product.Product
 import jakarta.persistence.*
 
 @Entity

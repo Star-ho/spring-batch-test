@@ -1,4 +1,4 @@
-package com.batch.product
+package com.sungho.product
 
 import jakarta.persistence.*
 

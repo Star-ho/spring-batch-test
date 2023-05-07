@@ -1,9 +1,9 @@
-package com.batch.order
+package com.sungho.order
 
-import com.batch.member.*
-import com.batch.member.dto.CreateOrderEntryRequest
-import com.batch.member.dto.RegisterOrderRequest
-import com.batch.product.ProductRepository
+import com.sungho.member.*
+import com.sungho.member.dto.CreateOrderEntryRequest
+import com.sungho.member.dto.RegisterOrderRequest
+import com.sungho.product.ProductRepository
 import org.springframework.stereotype.Component
 import kotlin.jvm.optionals.getOrNull
 

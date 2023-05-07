@@ -1,7 +1,7 @@
-package com.batch.member
+package com.sungho.member
 
-import com.batch.order.Order
-import com.batch.order.OrderEntry
+import com.sungho.order.Order
+import com.sungho.order.OrderEntry
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

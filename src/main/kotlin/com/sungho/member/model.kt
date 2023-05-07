@@ -1,4 +1,4 @@
-package com.batch.member
+package com.sungho.member
 
 import jakarta.persistence.*
 
@@ -14,7 +14,7 @@ class Member(
     val email: String = "",
     @Enumerated(EnumType.STRING)
     @Column(name = "ROLE")
-    val role: com.batch.member.ROLE,
+    val role: com.sungho.member.ROLE,
 )
 
 enum class ROLE(val label: String) {

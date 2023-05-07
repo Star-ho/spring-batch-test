@@ -1,4 +1,4 @@
-package com.batch.member.dto
+package com.sungho.member.dto
 
 class RegisterOrderRequest(
     val memberId: Long,
