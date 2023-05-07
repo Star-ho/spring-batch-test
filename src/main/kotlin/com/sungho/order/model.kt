@@ -2,7 +2,7 @@ package com.sungho.order
 
 import com.sungho.member.Member
 import com.sungho.product.Product
-import jakarta.persistence.*
+import javax.persistence.*
 
 @Entity
 @Table(name = "`ORDER`")

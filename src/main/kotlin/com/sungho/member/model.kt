@@ -1,6 +1,6 @@
 package com.sungho.member
 
-import jakarta.persistence.*
+import javax.persistence.*
 
 @Entity
 @Table(name = "MEMBER")
@@ -14,7 +14,7 @@ class Member(
     val email: String = "",
     @Enumerated(EnumType.STRING)
     @Column(name = "ROLE")
-    val role: com.sungho.member.ROLE,
+    val role: ROLE,
 )
 
 enum class ROLE(val label: String) {

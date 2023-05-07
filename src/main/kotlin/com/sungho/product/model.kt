@@ -1,6 +1,6 @@
 package com.sungho.product
 
-import jakarta.persistence.*
+import javax.persistence.*
 
 @Entity
 @Table(name = "PRODUCT")
