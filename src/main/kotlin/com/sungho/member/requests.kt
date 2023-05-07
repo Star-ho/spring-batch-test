@@ -4,7 +4,7 @@ class CreateMemberDto(
     val memberId: Long,
     val password: String,
     val email: String,
-    val role: com.sungho.member.ROLE,
+    val role: ROLE,
 )
 
 class LoginDto(

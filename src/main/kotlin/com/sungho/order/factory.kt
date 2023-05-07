@@ -21,7 +21,8 @@ class OrderFactory(
         orderEntryList.forEach { totalPrice.plus(it.price) }
 
         val member =
-            memberRepository.findById(registerOrderRequest.memberId).getOrNull() ?: throw IllegalArgumentException("멤버를 찾을 수 없습니다")
+            memberRepository.findById(registerOrderRequest.memberId).getOrNull()
+                ?: throw IllegalArgumentException("멤버를 찾을 수 없습니다")
         val order = Order(
             totalPrice = totalPrice,
             member = member, orderEntryList = orderEntryList as MutableList<OrderEntry>

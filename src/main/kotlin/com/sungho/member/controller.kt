@@ -6,17 +6,17 @@ import org.springframework.web.bind.annotation.*
 @RestController
 @RequestMapping("/auth")
 class AuthController(
-    private val memberService: com.sungho.member.MemberService,
+    private val memberService: MemberService,
 ) {
 
     @PostMapping("/signup")
-    fun registerMember(@RequestBody createMemberDto: com.sungho.member.CreateMemberDto): ResponseEntity<Unit> {
+    fun registerMember(@RequestBody createMemberDto: CreateMemberDto): ResponseEntity<Unit> {
         memberService.registerMember(createMemberDto)
         return ResponseEntity.ok().build()
     }
 
     @GetMapping()
-    fun getMembers(): List<com.sungho.member.Member> {
+    fun getMembers(): List<Member> {
         return memberService.getMemberList()
     }
 }

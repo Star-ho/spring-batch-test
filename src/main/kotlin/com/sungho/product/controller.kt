@@ -1,7 +1,7 @@
 package com.sungho.product
 
-import com.sungho.product.response.ProductResponse
 import com.sungho.product.request.CreateProductDto
+import com.sungho.product.response.ProductResponse
 import org.springframework.web.bind.annotation.*
 
 @RestController
