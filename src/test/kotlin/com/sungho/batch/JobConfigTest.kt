@@ -23,7 +23,7 @@ class JobConfigTest(
 
                 jobLauncher.run(job, param)
             }
-            it가("batch test2") {
+            it("batch test2") {
                 val param = JobParametersBuilder()
                     .addLong("test", 3L)
                     .addString("test2", LocalDateTime.now().toString())
